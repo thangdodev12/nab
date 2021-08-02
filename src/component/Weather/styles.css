@@ -1,0 +1,14 @@
+.weather {
+  flex: 1;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid #337ab7;
+}
+.weather__title {
+  color: #337ab7;
+  font-size: 1em;
+}
+.weather__img {
+  height: 100px;
+  margin: 0 auto;
+}

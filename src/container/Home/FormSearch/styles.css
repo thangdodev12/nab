@@ -1,0 +1,16 @@
+.search {
+  position: relative;
+}
+.autocomplete {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 4px 4px 12px #ccc;
+  padding: 0;
+  list-style: none;
+}
+
+.autocomplete li {
+  padding: 0.5em 2em;
+}

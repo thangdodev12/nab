@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render match  snapshot 1`] = `
+<div
+  className="app"
+>
+  <form
+    className="search"
+    onSubmit={[Function]}
+  >
+    <input
+      className="search__input"
+      name="search"
+      placeholder="ex: Ho Chi Minh"
+      type="search"
+    />
+    <button
+      className="search__button"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+  <div
+    className="content"
+  >
+    <div
+      className="content__header"
+    >
+      <h1
+        className="content__header__title"
+      >
+        Ho Chi Minh
+      </h1>
+      <p
+        className="content__header__date"
+      >
+        <strong>
+          Date: 
+        </strong>
+        01/01/2021
+      </p>
+    </div>
+    <div
+      className="weather"
+    >
+      <h3
+        className="weather__title"
+      >
+        Today
+      </h3>
+      <img
+        alt="info.label"
+        className="weather__img"
+      />
+      <p>
+        <strong>
+          Max: 
+        </strong>
+        NaN
+        °C
+      </p>
+      <p>
+        <strong>
+          Min: 
+        </strong>
+        NaN
+        °C
+      </p>
+    </div>
+    <div
+      className="content__body"
+    />
+  </div>
+</div>
+`;
