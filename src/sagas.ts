@@ -1,6 +1,6 @@
 import { initHomeSaga } from './container/Home/saga';
 
-const sagas: never[] | any[] = [
+const sagas = [
   initHomeSaga,
 ];
 export default sagas;
